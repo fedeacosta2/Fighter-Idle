@@ -8,6 +8,12 @@ public class Boat : MonoBehaviour
     [SerializeField] private PlayerController player;
     [SerializeField] private float translationSpeed = 5f; // Adjust speed as needed
     [SerializeField] private GameObject character;
+    private Rigidbody characterRigidbody;
+
+    private void Start()
+    {
+        characterRigidbody = character.GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
@@ -15,4 +21,8 @@ public class Boat : MonoBehaviour
         {
             character.transform.SetParent(transform);
             // Translate the boat in the z-axis
-            transform.Translate(Vector3.down * (tran
+            transform.Translate(Vector3.down * (translationSpeed * Time.deltaTime));
+            
+        }
+    }
+}

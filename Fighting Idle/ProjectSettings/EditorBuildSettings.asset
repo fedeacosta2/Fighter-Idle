@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 757734c88c955b74d9bccc1367e09ba1
+  - enabled: 1
+    path: Assets/Scenes/SimpleNaturePack_Demo.unity
+    guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: fd2ec079b2297b64282206d9d26b9bd8
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: 08e59136103723b448abc56109136cf4, type: 2}

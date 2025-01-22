@@ -8,7 +8,7 @@ public class StatsManager : MonoBehaviour
     [SerializeField] private PlayerController player;
     public Slider speedStat;
     public TextMeshProUGUI speedCurrentLevel;
-
+    
     public float speedValue;
     public int upgradesPointsAvailable; // New field to keep track of available upgrade points
 

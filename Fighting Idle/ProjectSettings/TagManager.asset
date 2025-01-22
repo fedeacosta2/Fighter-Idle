@@ -3,15 +3,31 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - player
+  - enemy
+  - small_log
+  - tree
+  - rock
+  - WaterPortCamera
+  - mushroom
+  - flower
+  - branch
+  - plant
+  - boat
+  - deadLine
+  - arrow
+  - EnemyAttackRange
+  - enemy1
+  - enemy2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
-  - 
+  - boat
   - 
   - 
   - 

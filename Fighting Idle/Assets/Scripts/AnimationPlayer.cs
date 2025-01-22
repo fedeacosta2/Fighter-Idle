@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimationPlayer : MonoBehaviour
 {
     private Animator _animator;
+    public  bool damageNow =false ;
 
     [SerializeField] private PlayerController player;
     public int treeCollisionCountForDestroy = 0;
@@ -30,4 +31,15 @@ public class AnimationPlayer : MonoBehaviour
             player.addItemAfterAnimation = false; // Reset flag
         }
     }
+
+    public void DamageEnemy()
+    {
+        damageNow = true;
+    }
+    
+    public void DamageEnemyfalse()
+    {
+        damageNow = false;
+    }
+    
 }
